@@ -1,0 +1,176 @@
+@supports (grid-area:auto) {
+
+
+	body{
+		background-color: #222629;
+		color: white;
+		font-family: montserrat;
+	}
+
+	header{
+		background-color: #222629;
+		color: #86C232;
+		font-weight: bold;
+		font-size: 2rem;
+	}
+
+	button{
+		display: block;
+		 background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000, #434343);
+		color: white;
+		font-family: montserrat;
+		margin: 3rem auto;
+
+		border-radius: 1rem;
+	}
+
+	h1{
+		color: #86C232;
+		font-weight: bold;
+		font-size: 2rem;
+	}
+
+	.naam {
+		margin: 2rem;
+		text-align: center;
+		padding-bottom: 1rem;
+		border-bottom: thin solid #86C232;
+	}
+
+	.m1, .m2 {
+		text-align: center;
+		margin: 2rem;
+		color: #6B6E70;
+		padding-bottom: 1rem;
+		border-bottom: thin solid #6B6E70;
+	}
+
+	.brian {
+		display: none;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	p{
+			color: white;
+			font-size: 1.5rem;
+			padding: 2rem;
+			padding-top: 0rem;
+			text-align: justify;
+	}
+
+	.foto {
+			border-radius: 5rem;
+			width: 10rem;
+			height: 10rem;
+			background-color: white;
+			margin: 3rem auto;
+			background-image: url("f.jpg");
+			background-size: 10rem;
+			background-repeat: no-repeat;
+		}
+
+	.foto:hover {
+		transform: scale(1.1);
+		background-color: rgba(255,255,255,0.2)
+	}
+
+
+iframe {
+      margin-left: -10px;
+}
+
+.kader {
+      margin: 1rem auto;
+      overflow: hidden;
+      width: 100vw;
+      height: 420px;
+}
+
+	@media (min-width: 600px){
+
+		.m1, .m2 {
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+
+		.naam {
+			display: none;
+		}
+
+		.alles{
+			width: 15rem;
+			height: 100vh;
+			position: fixed;
+		}
+
+		.mid {
+			width: 70vw;
+			height: 100vh;
+			position: absolute;
+			top:2rem;
+			right:2rem;
+		}
+
+		.brian {
+			display: block;
+			text-align: center;
+			margin-top: 5rem;
+		}
+		iframe {
+      margin-left: 0px;
+}
+
+.kader {
+      margin: 1rem auto;
+      overflow: hidden;
+      width: 80vw;
+      height: 420px;
+	position: absolute;
+	left: 15rem;
+	bottom: -20rem;
+}
+
+
+	}
+
+	@media (min-width: 800px) {
+
+		.mid {
+			width: 80vw;
+		}
+		.kader {
+      margin: 1rem auto;
+      overflow: hidden;
+      width: 90vw;
+      height: 420px;
+	position: absolute;
+	left: 18vw;
+	bottom: -15rem;
+}
+
+	}
+
+	@media (min-width: 1000px) {
+
+		.mid {
+			width: 85vw;
+		}
+
+				.kader {
+      margin: 1rem auto;
+      overflow: hidden;
+      width: 90vw;
+      height: 420px;
+	position: absolute;
+	left: 32vw;
+	bottom: -15rem;
+}
+
+
+	}
+}

@@ -1,0 +1,411 @@
+@supports (grid-area:auto) {
+
+	body{
+		background-color: #222629;
+		color: white;
+		font-family: montserrat;
+	}
+
+
+
+
+	.intro{
+		padding-top: 1rem;
+	}
+
+
+	header{
+		background-color: #222629;
+		color: #86C232;
+		font-weight: bold;
+		font-size: 2rem;
+
+	}
+
+	h1{
+		color: #86C232;
+		font-weight: bold;
+		font-size: 2rem;
+	}
+
+	.naam {
+		margin: 2rem;
+		text-align: center;
+		padding-bottom: 1rem;
+		border-bottom: thin solid #86C232;
+	}
+
+	.m1, .m2, .m3 {
+		text-align: center;
+		margin: 2rem;
+		color: #6B6E70;
+		padding-bottom: 1rem;
+		border-bottom: thin solid #6B6E70;
+	}
+
+	.m3 {
+		display: none;
+	}
+
+	.brian {
+		display: none;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	p{
+			color: white;
+			font-size: 1.5rem;
+			padding: 2rem;
+			padding-top: 0rem;
+			text-align: center;
+
+
+	}
+
+	.back {
+		padding-top: 2rem;
+		margin: 3rem;
+		box-shadow: 5px 5px 20px black;
+	}
+
+
+	.f1 {
+		height: 25rem;
+		width: 18rem;;
+		background-image: url("f1.jpg");
+		background-size: 18rem;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2rem;
+
+	}
+
+	.f2 {
+		height: 25rem;
+		width: 18rem;;
+		background-image: url("f2.jpg");
+		background-size: 18rem;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2rem;
+
+	}
+
+	.f3 {
+		height: 25rem;
+		width: 18rem;;
+		background-image: url("f3.jpg");
+		background-size: 18rem;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2rem;
+
+	}
+
+	.f4 {
+		height: 25rem;
+		width: 18rem;;
+		background-image: url("f4.jpg");
+		background-size: 18rem;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2rem;
+
+	}
+
+	.f5 {
+		height: 25rem;
+		width: 18rem;;
+		background-image: url("f5.jpg");
+		background-size: 18rem;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2rem;
+
+	}
+
+	.f6 {
+		height: 18rem;
+		width: 18rem;;
+		background-image: url("f6.jpg");
+		background-size: 18rem;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2rem;
+
+	}
+
+.boven {
+	margin: 2rem;
+	position: absolute;
+	bottom: -140rem;
+	left: 14rem;
+}
+
+.boven:hover{
+	color: #acfc3a;
+}
+
+		.f1:hover, .f2:hover, .f3:hover, .f4:hover, .f5:hover, .f6:hover {
+			background-color: rgba(212, 212, 214,0.2)
+		}
+
+
+
+	@media (min-width: 600px){
+
+header{
+	height: 100vh;
+	position: absolute;
+	top: 0rem;
+}
+
+		.tl{
+				width: 0;
+				height: 0;
+				border-top: 400px solid transparent;
+				border-right: 500px solid #42c231;
+				border-bottom: 200px solid transparent;
+				position: absolute;
+				right:0rem;
+				top: -20rem;
+	    }
+
+	.tr{
+		width: 0;
+		height: 0;
+		border-top: 200px solid transparent;
+		border-left: 150px solid #42c231;
+		border-bottom: 50px solid transparent;
+		position: absolute;
+		left:20rem;
+		top: -10rem;
+	}
+
+	.tl2{
+		width: 0;
+		height: 0;
+		border-top: 400px solid transparent;
+		border-right: 400px solid #94e226;
+		border-bottom: 100px solid transparent;
+		position: absolute;
+		right:0rem;
+		top: -10rem;
+	}
+
+	.tb{
+		width: 0;
+		height: 0;
+		border-left: 350px solid transparent;
+		border-right: 400px solid transparent;
+		border-bottom: 150px solid #94e226;
+		position: absolute;
+		bottom: -230rem;
+		left: -25rem;
+
+	}
+
+	.tl3{
+			width: 0;
+			height: 0;
+			border-top: 150px solid transparent;
+			border-right: 275px solid #42c231;
+			border-bottom: 100px solid transparent;
+			position: absolute;
+			bottom: -60rem;
+			right: 0rem;
+		}
+
+		.intro {
+			width: 70vw;
+			position: relative;
+			left: 25vw;
+		}
+
+		.m1, .m2, .m3 {
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+
+		.m3 {
+			display: block;
+		}
+
+		.back {
+		display: none;
+	}
+
+		.naam {
+			display: none;
+		}
+
+		.alles{
+			width: 15rem;
+			height: 100vh;
+			position: fixed;
+		}
+
+		.mid {
+			width: 70vw;
+			height: 100vh;
+			position: absolute;
+			top:4rem;
+			right:2rem;
+			margin-right: 2rem;
+		}
+
+		.fotos	{
+			margin-top: 5rem;
+		}
+
+		.f1, .f2, .f3, .f4, .f5 {
+			height: 44rem;
+			width:30rem;
+			background-size: 30rem;
+		}
+
+		.f6 {
+			background-size: 30rem;
+			height: 30rem;
+			width: 30rem;
+		}
+
+		.boven{
+			text-align: center;
+			margin: 2rem;
+			padding-bottom: 1rem;
+			/* border-bottom: thin solid #6B6E70; */
+			left: 0rem;
+		}
+
+	@media (min-width: 1000px) {
+
+		.mid {
+			width: 85vw;
+			margin-right: 0rem;
+		}
+
+		.fotos{
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 2rem;
+		}
+
+		.f1, .f2, .f3, .f4, .f5 {
+			height: 60rem;
+			width:40rem;
+			background-size: 40rem;
+		}
+
+		.f6 {
+			background-size: 40rem;
+			height: 41rem;
+			width: 40rem;
+		}
+
+		.tl{
+				width: 0;
+				height: 0;
+				border-top: 800px solid transparent;
+				border-right: 1000px solid #42c231;
+				border-bottom: 400px solid transparent;
+				position: absolute;
+				right:0rem;
+				top: -20rem;
+	    }
+
+	.tr{
+		width: 0;
+		height: 0;
+		border-top: 400px solid transparent;
+		border-left: 300px solid #42c231;
+		border-bottom: 100px solid transparent;
+		position: absolute;
+		left:0rem;
+		top: -15rrem;
+	}
+
+	.tl2{
+		width: 0;
+		height: 0;
+		border-top: 800px solid transparent;
+		border-right: 800px solid #94e226;
+		border-bottom: 200px solid transparent;
+		position: absolute;
+		right:0rem;
+		top: -10rem;
+	}
+
+	.tb{
+		width: 0;
+		height: 0;
+		border-left: 700px solid transparent;
+		border-right: 500px solid transparent;
+		border-bottom: 300px solid #94e226;
+		position: absolute;
+		bottom: -145rem;
+		left: -60rem;
+
+	}
+
+	.tl3{
+			width: 0;
+			height: 0;
+			border-top: 300px solid transparent;
+			border-right: 550px solid #42c231;
+			border-bottom: 200px solid transparent;
+			position: absolute;
+			bottom: -60rem;
+			right: 0rem;
+		}
+
+		.rec1 {
+			background-color: #94e226;
+			height: 10rem;
+			width: 10rem;
+			animation-name: left;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+			position: absolute;
+			bottom: -140rem;
+			left: 95rem;
+		}
+
+		@keyframes left {
+			from {transform: rotate(0deg);}
+			to {transform: rotate(360deg);}
+		}
+
+		.rec2 {
+			background-color: #42c231;
+			height: 10rem;
+			width: 10rem;
+			animation-name: right;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+			position: absolute;
+			bottom: -140rem;
+			left: 90rem;
+		}
+
+		@keyframes right {
+			from {transform: rotate(0deg);}
+			to {transform: rotate(-360deg);}
+		}
+
+}
+
+
+	}
+
+
+}
